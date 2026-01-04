@@ -1,10 +1,16 @@
-import React from 'react'
-import Header from './components/Header'
+import React from "react";
+import Header from "./components/Header";
+import HelpSection from "./components/HelpSection";
+import Footer from "./components/Footer";
 
 const HomePage = () => {
   return (
-    <div><Header/></div>
-  )
-}
+    <div>
+      <Header /> <HelpSection />
 
-export default HomePage
+      <Footer/>
+    </div>
+  );
+};
+
+export default HomePage;
