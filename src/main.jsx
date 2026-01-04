@@ -5,9 +5,6 @@ import HomePage from './HomePage'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <div className='p-8'>
     <HomePage />
-
-    </div>
   </StrictMode>,
 )

@@ -2,7 +2,7 @@ import React from 'react'
 
 const HeroSection = () => {
     return (
-        <div>
+        <div className="">
             <div className='text m-2 text-white'>
                 <h1 className='font1 tracking-[3px] text-[48px] mt-10'>Dados que impulsionam a eficiência
                     <br />energética <br /></h1>
@@ -12,9 +12,7 @@ const HeroSection = () => {
                         análise e a otimização do consumo energético.</strong></p>
 
             </div>
-            <div className="image w-full m-0 p-0">
-                <img src="../../public/images/garden.svg" alt="" srcset="" />
-            </div>
+
         </div>
     )
 }
