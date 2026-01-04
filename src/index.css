@@ -24,6 +24,17 @@
   font-display: swap;
 }
 
+:root {
+
+  --vermelho: #A52422;
+  --preto: #080F0F;
+  --amarelo: #EFF2C0;
+  --marrom: #BEA57D;
+  --azul: #A4BAB7;
+
+  background-color: var(--preto);
+}
+
 .font1 {
   font-family: 'BrunoAceSC', sans-serif;
 }
