@@ -3,7 +3,7 @@ import IndicatorCard from "./IndicatorCard";
 
 const IndicatorSection = () => {
   return (
-    <div className="bg-(--azul) p-20 mb-12">
+    <div className="bg-(--azul) p-20 mb-12 rounded-b-lg">
       <h1 className="font1 text-3xl text-(--preto) mb-8">Indicadores</h1>
       <div className="flex justify-center gap-12">
         <IndicatorCard
